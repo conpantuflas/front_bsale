@@ -1,0 +1,23 @@
+#search{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    height: 1.3rem;
+}
+
+form > lavel{
+    color: #fff
+}
+
+#submitSearch{
+    height: 1.5rem;
+    background: rgb(45,83,103);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color:#fff;
+}
+
+#submitSearch:hover{
+  transform: scale(1.1)
+}

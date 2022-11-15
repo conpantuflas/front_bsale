@@ -1,0 +1,16 @@
+#navbar{
+    margin: -9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(45,83,103);
+    background: linear-gradient(90deg, rgba(45,83,103,1) 2%, rgba(59,62,64,1) 100%);
+}
+
+#navbar > h1{
+    padding: 1rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+

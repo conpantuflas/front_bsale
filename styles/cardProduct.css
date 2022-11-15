@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(226, 223, 223);
+}
+
+#card{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+#imTheCard{
+    border-radius: 13px;
+    width: 90%;
+    height: 25rem;
+    box-shadow: 3px 3px 10px gray;
+    border: 1px solid rgb(209, 208, 208);
+    background-color: #fff;
+    margin-top: 5rem;
+    border: 0.5px solid rgb(189, 189, 189);
+}
+
+#imageProduct{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 13px 13px 0 0 ;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+#titleProduct{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 82%;
+    height: 2.5rem;
+    margin: 0 auto;
+    text-transform:lowercase ;
+}
+
+#priceProduct{
+    text-align: center;
+    font-weight: 400;
+}
+
+#discountProduct{
+    text-align: center;
+}
+#buttonCartShopping{
+    background-color: rgb(2, 104, 2);
+    border: none;
+    border-radius: 10px;
+    padding: 0.1rem;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    fill: #fff;
+}
+
+#buttonCartShopping:hover{
+    background-color: rgb(9, 160, 9);
+    transform: scale(1.1);
+    cursor: pointer;
+}
